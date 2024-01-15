@@ -173,3 +173,48 @@ a {
   font-weight: 800;
   font-size: 1.75rem;
 }
+/* choose section  */
+.choose {
+  margin: 100px auto;
+  width: 80%;
+  text-align: center;
+}
+.choosing-all {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+
+  gap: 25px;
+  margin-top: 20px;
+}
+.choosing-all img {
+  margin-bottom: 20px;
+}
+.choosing-all p {
+  width: 90%;
+  margin-top: 20px;
+}
+.c-one {
+  text-align: start;
+  padding: 30px;
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+}
+.c-two {
+  text-align: start;
+  padding: 30px;
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+}
+.c-three {
+  width: 100%;
+  text-align: start;
+  padding: 30px;
+  border-radius: 16px;
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
+  margin-left: 50%;
+}

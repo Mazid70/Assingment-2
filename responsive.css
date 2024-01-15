@@ -57,7 +57,8 @@
   .popular-img img {
     width: 100%;
   }
-  .destination {
+  .destination,
+  .choose {
     width: 90%;
   }
   .row {
@@ -75,5 +76,14 @@
   }
   .main-title {
     font-size: 1.25rem;
+  }
+  .choose {
+    margin: 20px auto;
+  }
+  .choosing-all {
+    grid-template-columns: 1fr;
+  }
+  .c-three {
+    margin: 0;
   }
 }
