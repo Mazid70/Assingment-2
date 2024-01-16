@@ -54,7 +54,9 @@
     width: 100%;
     margin-left: 20px;
   }
-  .popular-img img {
+  .popular-img img,
+  .video-text,
+  .video-container {
     width: 100%;
   }
   .destination,
@@ -64,6 +66,9 @@
   .row {
     flex-direction: column;
     width: 100%;
+  }
+  .overlay {
+    font-size: 1.25rem;
   }
 
   .destination img {
@@ -85,5 +90,87 @@
   }
   .c-three {
     margin: 0;
+  }
+  .newsletter {
+    width: 90%;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .newsletter-text {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+  .newsletter-text input,
+  .newsletter-text button,
+  hr {
+    width: 90%;
+  }
+  .newsletter-text h3,
+  .newsletter-text p {
+    margin-left: 20px;
+  }
+
+  .newsletter-img {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 20px;
+  }
+
+  .discount {
+    height: 80px;
+    width: 215px;
+    border-radius: 10px;
+    bottom: 40px;
+  }
+  .discount h4 {
+    font-size: 0.9rem;
+  }
+  .discount h3 {
+    font-size: 1.3rem;
+  }
+  footer {
+    margin-top: 250px;
+    height: 310px;
+  }
+  .footer-text {
+    width: 95%;
+  }
+  .footer-text hr {
+    margin: 20px;
+  }
+  .hajj-umrah-container {
+    width: 90%;
+  }
+  .hajj-umrah {
+    flex-direction: column;
+    height: auto;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  .hajj-umrah-details {
+    width: 100%;
+    height: 300px;
+  }
+  .video {
+    margin: 20px auto;
+    width: 90%;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .discount-section {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+  .deals-icons {
+    flex-wrap: wrap;
+  }
+  .deals-details {
+    width: 90%;
+    text-align: start;
+    padding: 20px;
+    top: 20%;
+    left: 16px;
+    gap: 10px;
   }
 }
